@@ -1,5 +1,7 @@
 let namehash = require("eth-ens-namehash");
+import { utils } from "ethers";
 let hash = namehash.hash("resolver.eth");
-// '0xde9b09fd7c5f901e23a3f19fecc54828e9c848539801e86591bd9801b019f84f'
 
 console.log(hash);
+console.log(utils.keccak256(Buffer.from("addr(bytes32)", "utf8")));
+console.log(utils.keccak256(Buffer.from("addr(bytes32,uint256)", "utf8")));
