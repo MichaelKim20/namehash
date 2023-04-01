@@ -1,0 +1,15 @@
+[submodule "submodules/bizboa-bridge"]
+	path = submodules/bizboa-bridge
+	url = https://github.com/bosagora/bizboa-bridge-contracts.git
+	branch = v0.x.x
+[submodule "submodules/boa-ethnet"]
+	path = submodules/boa-ethnet
+	url = https://github.com/bosagora/bosagora-erc20.git
+	branch = master
+[submodule "submodules/openzeppelin-solidity"]
+	path = submodules/openzeppelin-solidity
+	url = https://github.com/OpenZeppelin/openzeppelin-solidity.git
+    branch = release-v2.3.0
+[submodule "submodules/deposit-contract"]
+	path = submodules/deposit-contract
+	url = https://github.com/bosagora/deposit-contract.git
